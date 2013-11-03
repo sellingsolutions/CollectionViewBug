@@ -19,6 +19,8 @@
 		8080D00E182695A90099E711 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8080CFF6182695A80099E711 /* UIKit.framework */; };
 		8080D016182695A90099E711 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8080D014182695A90099E711 /* InfoPlist.strings */; };
 		8080D018182695A90099E711 /* CollectionViewBugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8080D017182695A90099E711 /* CollectionViewBugTests.m */; };
+		8080D022182695BC0099E711 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8080D021182695BC0099E711 /* Storyboard.storyboard */; };
+		8080D028182698DC0099E711 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8080D027182698DC0099E711 /* Controller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		8080D013182695A90099E711 /* CollectionViewBugTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollectionViewBugTests-Info.plist"; sourceTree = "<group>"; };
 		8080D015182695A90099E711 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8080D017182695A90099E711 /* CollectionViewBugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewBugTests.m; sourceTree = "<group>"; };
+		8080D021182695BC0099E711 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		8080D026182698DC0099E711 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		8080D027182698DC0099E711 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				8080D002182695A80099E711 /* SSAppDelegate.m */,
 				8080D004182695A80099E711 /* Images.xcassets */,
 				8080CFF9182695A80099E711 /* Supporting Files */,
+				8080D021182695BC0099E711 /* Storyboard.storyboard */,
+				8080D026182698DC0099E711 /* Controller.h */,
+				8080D027182698DC0099E711 /* Controller.m */,
 			);
 			path = CollectionViewBug;
 			sourceTree = "<group>";
@@ -222,6 +230,7 @@
 			files = (
 				8080CFFD182695A80099E711 /* InfoPlist.strings in Resources */,
 				8080D005182695A80099E711 /* Images.xcassets in Resources */,
+				8080D022182695BC0099E711 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +251,7 @@
 			files = (
 				8080D003182695A80099E711 /* SSAppDelegate.m in Sources */,
 				8080CFFF182695A80099E711 /* main.m in Sources */,
+				8080D028182698DC0099E711 /* Controller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
